@@ -1,0 +1,772 @@
+@media screen and (max-width: 1250px) {
+    .about__title{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .about__item{
+        font-size: 14px;
+        gap: 15px; 
+    }
+    .about__images{
+        height: 100%;
+        max-height: 496px;
+        min-height: 400px;
+        width: 100%;
+        max-width: 475px;
+        position: relative;
+    }
+    .about__link a{
+        font-size: 14px;
+    }
+    .benefis__item{
+        background: #FAF7F2;
+        margin-top: 50px;
+    }
+    .wcu__content{
+        gap: 150px;
+    }
+    .wcu__toptitle{
+        font-size: 14px;
+    }
+    .wcu__text{
+        font-size: 14px;
+    }
+    .wcu__title{
+        font-size: 45px;
+    }
+    .wcu__img img{
+        max-width: 500px;
+        height: 560px;
+    }
+    .wcu__bg{
+        max-width: 487.94px;
+        height: 559.27px;
+    }   
+    .wcu__box__images{
+        max-width: 543px;
+        height: 603px;
+    }
+    .popularlisting__carts{
+        background: url(../img/svg/listing\ bg.svg) center bottom;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .video{
+        margin-top: 120px;
+    }
+    .clients{
+        margin-top: 150px;
+    }
+    .carusell__text{
+        max-width: 600px;
+    }
+    .carusell__info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .newsletter{
+        padding-bottom: 150px;
+    }
+    .footer__info__content{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .footer__img{
+        display: block;
+        top: -100px;
+    }
+    .part1__country{
+        margin-top: 200px;
+    }
+    .footer__part2 svg{
+        display: none;
+    }
+    .part1__title p{
+        max-width: 800px;
+    }
+
+    .part2__text{
+        max-width: 600px;
+        margin-top: 0px;
+        margin-left: 0px;
+        position: absolute;
+        top: 200px;
+    }
+    .part2__links{
+        margin-left: 0;
+        margin-top: 50;
+    }
+    .footer__part2{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header__item{
+        gap: 45px;
+    }
+    .hero__title{
+        font-size: 50px;
+        max-width: 650px;
+    }
+    .hero__subtitle{
+        max-width: 500px;
+    }
+    .hero__btns{
+        margin-top: 40px;
+    }
+    .about__items{
+        max-width: 500px;
+    }
+    .about{
+        padding:50px 0px 100px 0;
+        margin-top: 70px;
+    }
+    .about__video{
+        right: -50px;
+    }
+    .about .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 1000px;
+    }
+    .about__images{
+        position: absolute;
+        bottom: 0;
+    }
+    .about__content{
+        margin-left: 0;
+    }
+    .benfis__content{
+        display: block;
+    }
+    .benefis__smalltext{
+        margin-top: 50px;
+    }
+    .wcu{
+        padding-bottom: 100px;
+    }
+    .wcu__box1{
+        left: 0;
+
+    }
+    .wcu__content{
+        padding-top: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 1000px;
+    }
+    .wcu__box__images{
+        position: absolute;
+        bottom: 0;
+    }
+    .wcu__text__content{
+        position: absolute;
+        top: 0;
+    }
+    .textsticky{
+        margin-top: 158px;
+    }
+    .popularlisting{
+        margin-top: 175px;
+    }
+    .popularlisting__filters{
+        gap: 40px;
+    }
+    .carusell__content{
+        background: url(../img/bg__carusell.png) no-repeat;
+        padding-bottom: 110px;
+        padding-top: 110px;
+    }
+    .newsletter{
+        padding-bottom: 150px;
+    }
+    .right{
+        position: absolute;
+        bottom: 42px;
+        right: 43%;
+        transform: translate(50%, 0);
+    }
+    .left{
+        left: 43%;
+        transform: translate(-50%, -0);
+        position: absolute;
+        bottom: 42px;
+    }
+    .carusell{
+        position: relative;
+    }
+    .carusell__ellipses div{
+        width: 35.89px;
+        height: 1px;
+        border-radius: 0;
+    }
+    .carusell__text{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header__item{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .popularlisting__filters{
+        gap: 10px;
+    }
+    .popularlisting__link_btn{
+        width: 140px;
+    }
+    .about__video{
+        bottom: 0;
+        right: 0 ;
+    }
+    .about__img{
+        max-width: 368px;
+    }
+    .wcu__box2{
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .newsletter__name input{
+        width: 100%;
+    }
+    .newsletter__email input{
+        width: 100%;
+    }
+    .newsletter__email{
+        width: 100%;
+        max-width: 250px
+    }
+    .newsletter__name{
+        width: 100%;
+        max-width: 250px;
+    }
+    .footer__img{
+        display: none;
+    }
+    .footer{
+        margin-top: 250px;
+    }
+    .part1__items:last-child{
+        flex-basis: 100%;
+    }
+    .part1__title{
+        font-size: 45px;
+    }
+    .footer__part2{
+        padding-bottom: 10px;
+    }
+    .part1__title p{
+        max-width: 420px;
+    }
+    .hero__btn{
+        max-width: 300px;
+    }
+    .hero{
+        height: 926px;
+        align-items: flex-start;
+    }
+    .hero__toptitle{
+        padding-top: 150px;
+    }
+    .hero__image{
+        width: 100%;
+        max-width: 399px;
+        height: 333px;
+    }
+    .statics__element{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+    }
+    .about__img img{
+        min-height: 350px;
+    }
+    .about__video{
+        bottom: 50px;
+    }
+    .about{
+        padding:50px 0px 50px 0;
+    }
+    .benefis{
+        margin-top: 50px;
+    }
+    .benefis__item{
+        gap: 10px;
+    }
+    .benefis__items{
+        width: 90%;
+    }
+    .benefis__items__text{
+        max-width: 90%;
+    }
+    .statics__content{
+        display: block;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+    .part2__text{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .hero__toptitle{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6em;
+    }
+    .hero__title{
+        margin-top: 8px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        max-width: 323px;
+    }
+    .hero__subtitle{
+        max-width: 307px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .hero__btns{
+        justify-content: left;
+        gap: 10px;
+    }
+    .hero__btn{
+        font-size: 12px;
+    }
+    .about__toptitle{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .about__title{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 116%;
+        max-width: 272px;
+        margin-bottom: 16px;
+        margin-top: 6px;
+    }
+    .about__textgray{
+        max-width: 326px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 33px;
+    }
+    .about__items{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .about__images{
+        height: 220px;
+    }
+    .about .container{
+        height: 615px;
+    }  
+    .about__item{
+        gap: 1px;
+    }
+    .about__items{
+        gap: 15px;
+    }
+    .about__img{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 150px;
+        justify-content: center;
+    }
+    .about__img img{
+        width: 207px;
+        min-height: 207px;
+    }
+    .about__video {
+        bottom: 0;
+        right: 65px;
+        width: 100%;
+        max-width: 120px;
+        height: 100%;
+        max-height: 117px;
+    }
+    .about__text{
+        top: 180px;
+        left: 51px;
+        width: 183px;
+        height: 67px;
+    }
+    .about__text p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .benefis__toptitle{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .benefis__text{
+        max-width: 292px;
+        margin-top: 6px;
+        font-size: 28px;
+        line-height: 116%;
+    }
+    .benefis__text svg{
+        width: 102px;
+        top: 35px;
+    }
+    .benefis__smalltext{
+        max-width: 318px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .benefis__items__toptext{
+        max-width: 92px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .benefis__items__text{
+        max-width: 292px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .benefis__items__link a{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .statics__number{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .statics__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .statics{
+        margin-top: 61px;
+    }
+    .statics__content{
+        display: block;
+    }
+    .wcu{
+        margin-top: 61px;
+    }
+    .wcu__toptitle{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .wcu__title{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 116%;
+        max-width: 234px;
+    }
+    .wcu__title span{
+        position: relative;
+    }
+    .wcu__title svg{
+        display: block;
+        width: 102px;
+        position: absolute;
+        left: 50%;
+        top: 38px;
+        transform: translateX(-50%);
+    }
+    .wcu__text{
+        margin-top: 30px;
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 338px;
+    }
+
+    .wcu__img img{
+        max-width: 337px;
+        height: 391px;
+    }
+    .wcu__bg{
+        max-width: 328px;
+        height: 389px;
+    }   
+    .wcu__box__images{
+        max-width: 370px;
+        height: 420px;
+    }
+    .wcu__content{
+        height: 753px;
+    }
+    .wcu__box1__text{
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 177px;
+    }
+    .wcu__box2__text{
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 177px;
+    }
+    .wcu__box1__title{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 17px;
+    }
+    .wcu__box2__title{
+        margin-top: 17px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .wcu__box1{
+        top: 65px;
+        max-width: 259px;
+    }
+    .wcu__box2{
+        max-width: 259px;
+    }
+    .textsticky{
+        margin-top: 51px;
+    }
+    .popularlisting{
+        margin-top: 81px;
+    }
+    .popularlisting__title{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 116%;
+        display: flex;
+        justify-content: center;
+    }
+    .popularlisting__title svg{
+        max-width: 195px;
+    }
+    .popularlisting__filters{
+        gap: 13px;
+    }
+    .popularlisting__link_btn{
+        width: 100px;
+        text-transform: uppercase;
+    }
+    .popularlisting__carts{
+        margin-top: 58px;
+    }
+    .benefis__items__image{
+        padding-left: 28px;
+    }
+    .benefis__items__text{
+        padding-left: 28px;
+    }
+    .benefis__items__link{
+        padding-left: 28px;
+    }
+    .video__title{
+        font-size: 28px;
+    }
+    .video__filters{
+        font-size: 12px;
+    }
+    .video{
+        margin-top: 60px;
+    }
+    .clients{
+        margin-top: 60px;
+    }
+    .clients__title{
+        font-size: 28px;
+    }
+    .clients__title svg{
+        max-width: 100px;
+    }
+    .clients__img{
+        margin-top: 50px;
+    }
+    .carusell{
+        margin-top: 70px;
+    }
+    .carusell__text{
+        font-size: 12px;
+    }
+    .carusell__title{
+        position: relative;
+        font-size: 28px;
+    }
+    .carusell__title svg{
+        position: absolute;
+        max-width: 140px;
+        top: 40px;
+    }
+    .newsletter{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .newsletter__title{
+        font-size: 28px;
+    }
+    .newsletter__text{
+        font-size: 12px;
+        max-width: 325px;
+    }
+    .newsletter__inputs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .newsletter__name p{
+        font-size: 12px;
+    }
+    .newsletter__email p{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .newsletter__name input{
+        font-size: 12px;
+    }
+    .newsletter__email input{
+        font-size: 12px;
+    }
+    .newsletter__submit{
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 20px;
+        max-width: 400px;
+    }
+    .footer{
+        margin-top: 1px;
+    }
+    .part1__title{
+        font-size: 28px;
+    }
+    .part1__title p{
+        max-width: 300px;
+    }
+    .footer__info__content{
+        margin-top: 80px;
+    }
+    .part2__text{
+        top: 120px;
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .part1__country{
+        font-size: 12px;
+    }
+    .part1__item{
+        gap: 40px;
+    }
+    .part1__items{
+        font-size: 12px;
+    }
+    .part1__links{
+        margin-top: 40px;
+    }
+    .part1__links a{
+        font-size: 12px;
+    }
+    .part2__links{
+        margin-top: 40px;
+    }
+    .part2__links a{
+        font-size: 12px;
+    }
+    .footer__content{
+        height: 800px;
+    }
+    .right{
+        right: 40%;
+    }
+    .left{
+        left: 40%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .hero__btn {
+        padding: 15px 25px 15px 20px;
+        font-size: 10px;
+    }
+    .about .container{
+        height: 700px;
+    }
+    .benefis__items__topinfo{
+        gap: 5px;
+    }
+    .benefis__items__text{
+        font-size: 10px;
+    }
+    .benefis__items__toptext{
+        font-size: 20px;
+    }
+    .popularlisting__filters{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .popularlisting__cart{
+        max-width: 270px;
+    }
+    .popularlisting__cart_text{
+        margin-left: 5px;
+        font-size: 25px;
+    }
+    .popularlisting__cart_address{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .popularlisting__cart_price{
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .popularlisting__cart_line1{
+        margin-left: 5px;
+        gap: 20px;
+        font-size: 12px;
+    }
+    .popularlisting__cart_line2{
+        margin-left: 5px;
+        gap: 20px;
+        font-size: 12px;
+    }
+    .popularlisting__cart_line3{
+        margin-left: 5px;
+        max-width: 200px;
+    }
+    .popularlisting__cart_line4{
+        font-size: 12px;
+        margin-left: 5px;
+        gap: 20px;   
+    }
+    .video__filters{
+        max-width: 280px;
+    }
+    .video__filter{
+        font-size: 12px;
+    }
+    .newsletter__name input{
+        padding-left: 5px;
+    }
+    .newsletter__email input{
+        padding-left: 5px;
+    }
+    .part2__text{
+        top: 150px;
+    }
+    .right{
+        right: 38%;
+    }
+    .left{
+        left: 38%;
+    }
+    .hero__image{
+        bottom: 0;
+        width: 250px;
+        height: 210px;
+    }
+    .benefis__item{
+        gap: 10px;
+    }
+    .benefis__items{
+        padding-bottom: 0;
+        height: 350px;
+    }
+}
