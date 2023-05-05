@@ -770,3 +770,129 @@
         height: 350px;
     }
 }
+@media screen and (max-width: 270px) {
+    .logo img{
+    
+        width: 120px;
+    }
+    .burger svg{
+        width: 30px;
+    }
+    .hero__toptitle{
+        margin-top: 0;
+    }
+    .hero__title{
+        font-size: 30px;
+    }
+    .hero__btns{
+        font-size: 10px;
+        justify-content: center;
+        max-width: 230px;
+    }
+    .hero__btn{
+        padding: 11px 11px 11px 11px;
+    }
+    .benefis__items__image{
+        padding-left: 5px;
+    }
+    .benefis__items__image img{
+        width: 80px;
+    }
+    .about__text{
+        left: 20px;
+    }
+    .benefis__items__toptext{
+        font-size: 16px;
+    }
+    .wcu__box1{
+        top: 35px;
+        height: 85px;
+
+    }
+    .wcu__box1__text{
+        font-size: 8px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .wcu__box1__title{
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    
+    .wcu__box1 svg{
+        margin-left: 5px;
+        width: 30px;
+    }
+    .wcu__box2 svg{
+        margin-left: 5px;
+        width: 30px;
+    }
+    .wcu__box2{
+        bottom: -5px;
+        height: 85px;
+
+    }
+    .wcu__box2__text{
+        font-size: 8px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .wcu__box2__title{
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    .benefis__items__text{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .popularlisting__cart{
+        width: 220px;
+        height: 500px;
+    }
+    .popularlisting__cart_line1{
+        font-size: 10px;
+    }
+    .popularlisting__cart_line2{
+        font-size: 10px;
+    }
+    .popularlisting__cart_line3{
+        max-width: 190px;
+    }
+    .popularlisting__cart_line4{
+        font-size: 10px;
+    }
+    .video__filters{
+        gap: 40px;
+    }
+    .video__filter{
+        font-size: 14px;
+    }
+    .video__content{
+        margin-top: 10px;
+    }
+    .video__controller a img{
+        width: 30px;
+    }
+    .carusell__text{
+        font-size: 10px;
+    }
+    .right{
+        position: absolute;
+        right: 35%;
+        transform: translate(50%, 0);
+    }
+    .left{
+        left: 35%;
+        transform: translate(-50%, -0);
+        position: absolute;
+    }
+    .newsletter__submit{
+        width: 150px;
+    }
+    .part2__links a{
+        margin-left: 24px;
+    }
+    .part2__links a:first-child{
+        margin-left: 0;
+    }
+}
