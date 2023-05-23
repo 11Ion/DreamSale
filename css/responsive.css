@@ -414,7 +414,6 @@
         line-height: 16px;
     }
     .benefis__text{
-        max-width: 292px;
         margin-top: 6px;
         font-size: 28px;
         line-height: 116%;
@@ -424,7 +423,6 @@
         top: 35px;
     }
     .benefis__smalltext{
-        max-width: 318px;
         font-size: 12px;
         line-height: 16px;
     }
