@@ -16,6 +16,9 @@
         max-width: 475px;
         position: relative;
     }
+    .benefis__smalltext{
+        margin-top: 50px;
+    }
     .about__link a{
         font-size: 14px;
     }
@@ -142,7 +145,7 @@
     }
  
     .benefis__smalltext{
-        margin-top: 70px;
+        margin-top: 50px;
     }
     .wcu{
         padding-bottom: 100px;
