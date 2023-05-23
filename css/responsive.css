@@ -210,12 +210,15 @@
     }
 }
 @media screen and (max-width: 700px) {
-    .header__item{
+    .header__item {
         display: none;
-    }
-    .burger{
+      }
+    
+      .burger {
         display: block;
-    }
+        cursor: pointer;
+      }
+    
     .popularlisting__filters{
         gap: 10px;
     }
@@ -323,6 +326,9 @@
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.6em;
+    }
+    .benefis__item{
+        padding: 0;
     }
     .hero__title{
         margin-top: 8px;
@@ -769,6 +775,9 @@
         padding-bottom: 0;
         height: 350px;
     }
+    .benefis__item{
+        padding: 0;
+    }
 }
 @media screen and (max-width: 270px) {
     .logo img{
@@ -895,4 +904,20 @@
     .part2__links a:first-child{
         margin-left: 0;
     }
+    .footer{
+        margin-top: 90px;
+    }
+    .part1__item{
+        padding: 0;
+    }
+    main{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 218px) {
+    .part2__text{
+        margin: 0;
+        top: 180;
+    }
+
 }

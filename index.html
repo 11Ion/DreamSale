@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/anim.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +13,22 @@
     <title>Dreamsale</title>
 </head>
 <body>
+    <div class="burger_active show">
+        <div class="close_burger" id="close_b"><img src="img/svg/close_btn.svg" alt="close"></div>
+        <ul class="burger_active_items">
+            <li class="burger_active_item"><a href="#">About</a></li>
+            <li class="burger_active_break"></li>
+            <li class="burger_active_item"><a href="#">Services</a></li>
+            <li class="burger_active_break"></li>
+            <li class="burger_active_item"><a href="#">Projects</a></li>
+            <li class="burger_active_break"></li>
+            <li class="burger_active_item"><a href="#">Contact us</a></li>
+        </ul>
+    </div>
     <header class="header">
         <div class="container">
-            <nav class="menu">
-                <div class="logo"><img src="img/svg/logo.svg" alt="Dreamsale"></div>
+            <nav class="menu anim__item">
+                <div class="logo"><a href="index.html"><img src="img/svg/logo.svg" alt="Dreamsale"></a></div>
                 <ul class="header__item">
                     <li class="header__items"><a href="">About</a></li>
                     <li class="header__items"><a href="">Services</a></li>
@@ -23,13 +36,13 @@
                     <li class="header__items">|</li>
                     <li class="header__items"><a href="">Contact us</a></li>
                 </ul>
-                <div class="burger">
+                <div class="burger" id="open_b">
                     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="22" cy="22" r="22" fill="#1E1E2F"/>
                         <path d="M13 17H31" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
                         <path d="M13 22H31" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
                         <path d="M13 27H31" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>                        
+                        </svg> 
                 </div>
             </nav>
         </div>
@@ -37,37 +50,37 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-                <div class="hero__toptitle">WELCOME</div>
-                <div class="hero__title">
+                <div class="hero__toptitle anim__item no_repeat">WELCOME</div>
+                <div class="hero__title anim__item no_repeat">
                     The Home of 
                     excellence in real 
                     estate industry
                 </div>
-                <div class="hero__subtitle">The best architecture speaks the language of what it is designed for A Building must be sustainable to be beautiful.</div>
-                <div class="hero__btns">
+                <div class="hero__subtitle anim__item no_repeat">The best architecture speaks the language of what it is designed for A Building must be sustainable to be beautiful.</div>
+                <div class="hero__btns anim__item no_repeat">
                     <a href="" class="hero__btn">Explore Now</a>
                     <a href="" class="hero__btn">Get in Touch</a>
                 </div>
             </div>
-            <div class="hero__image">
+            <div class="hero__image anim__item no_repeat">
                 <img src="img/build_hero.png" alt="img">
             </div>
         </section>
 
         <section class="about">
           <div class="container">
-            <div class="about__images">
+            <div class="about__images ">
                 <div class="about__img">
                     <img src="img/about_image.png" alt="img">
                 </div>
-                <div class="about__text">
+                <div class="about__text anim__item">
                     <p>10+ years we have been in this propert sector</p>
                 </div>
-                <div class="about__video">
+                <div class="about__video anim__item">
                    <a href="#"><video src="#" poster="img/About_Video.jpg" ></video></a>
                 </div>
             </div>
-            <div class="about__content">
+            <div class="about__content anim__item">
                 <p class="about__toptitle">About us</p>
                 <p class="about__title">Leading Real Estate Rental Marketplace</p>
                 <p class="about__textgray">Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
@@ -110,9 +123,9 @@
         </section>
         <section class="benefis">
             <div class="container">
-                <div class="benefis__toptitle">Benefits</div>
+                <div class="benefis__toptitle anim__item">Benefits</div>
                 <div class="benfis__content">
-                <div class="benefis__text"> 
+                <div class="benefis__text anim__item"> 
                     Most trusted name in
                     real-estate <span>globally 
                         <svg width="158" height="28" viewBox="0 0 158 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,13 +133,13 @@
                             </svg>                            
                     </span>
                 </div>
-                <div class="benefis__smalltext">
+                <div class="benefis__smalltext anim__item">
                     We have won multiple awards as a real estate agency and you can count on use to be your trust worthy partner in this process
                 </div>
             </div>
 
             <ul class="benefis__item">
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon1.svg" alt=""></div>
                         <div class="benefis__items__toptext">100% Security</div>
@@ -140,7 +153,7 @@
                          </a> 
                         </div>
                 </li>
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon2.svg" alt=""></div>
                         <div class="benefis__items__toptext">Money back Gurantee</div>
@@ -154,12 +167,12 @@
                          </a> 
                         </div>
                 </li>
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon3.svg" alt=""></div>
                         <div class="benefis__items__toptext">Flower Gardeny</div>
                     </div>
-                    <div class="benefis__items__text">
+                    <div class="benefis__items__text anim__item">
                         The best architecture speaks the language of what it is designed for A Building must be sustainable to be beautiful
                     </div>
                     <div class="benefis__items__link"><a href="#">Explore More <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +182,7 @@
                         </div>
                 </li>
 
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon4.svg" alt=""></div>
                         <div class="benefis__items__toptext">Parkers & Movers</div>
@@ -183,7 +196,7 @@
                          </a> 
                         </div>
                 </li>
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon5.svg" alt=""></div>
                         <div class="benefis__items__toptext">Rentul
@@ -199,7 +212,7 @@
                          </a> 
                         </div>
                 </li>
-                <li class="benefis__items">
+                <li class="benefis__items anim__item no_repeat">
                     <div class="benefis__items__topinfo">
                         <div class="benefis__items__image"><img src="img/svg/benefis__icon6.svg" alt=""></div>
                         <div class="benefis__items__toptext">Swimming
@@ -247,7 +260,7 @@
                             <div class="wcu__img">
                                 <img src="img/wcu.jpg" alt="img">
                             </div>
-                            <div class="wcu__box1">
+                            <div class="wcu__box1 anim__item">
                                 <div class="wcu__box1__title">
                                     <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <ellipse cx="18.1068" cy="18.0767" rx="18.1068" ry="18.0767" fill="#1E1E2F"/>
@@ -259,7 +272,7 @@
                                     Among many of my great projects there are some that occupy special places in
                                 </div>
                             </div>
-                            <div class="wcu__box2">
+                            <div class="wcu__box2 anim__item">
                                 <div class="wcu__box2__title">
                                     <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <ellipse cx="18.1" cy="18.02" rx="18.1" ry="18.02" fill="#1E1E2F"/>
@@ -272,7 +285,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wcu__text__content">
+                        <div class="wcu__text__content anim__item no_repeat">
                             <div class="wcu__toptitle">
                                 WHY US?
                             </div>
@@ -293,27 +306,27 @@
                 </div>
             </div>
         </section>
-        <section class="textsticky">
+        <section class="textsticky anim__item">
                 <img src="img/textgr.png" alt="img">
         </section>
 
         <section class="popularlisting">
             <div class="container">
                 <div class="popularlisting__content">
-                    <div class="popularlisting__title">
+                    <div class="popularlisting__title anim__item no_repeat">
                         Popular listing
                         <svg width="375" height="28" viewBox="0 0 375 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 26C48.895 8.45324 188.748 -16.6088 373 23.517" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
                             </svg>
                     </div>
-                    <div class="popularlisting__filters">
+                    <div class="popularlisting__filters anim__item">
                         <a href="#" class="popularlisting__link"><div class="popularlisting__link_btn">Rent</div> </a>
                         <a href="#" class="popularlisting__link"><div class="popularlisting__link_btn">Featured</div> </a>
                         <a href="#" class="popularlisting__link"><div class="popularlisting__link_btn">Sale</div> </a>
                     </div>
                 </div>
                 <div class="popularlisting__carts">
-                    <div class="popularlisting__cart">
+                    <div class="popularlisting__cart anim__item">
                         <div class="popularlisting__cart_image">
                             <div class="featured">Featured</div>
                             <img src="img/listingimg1.jpg" alt="img">
@@ -344,7 +357,7 @@
                                 <div class="popularlisting__cart_line4_elements">2 Rooms</div>
                                 </div>
                     </div>
-                    <div class="popularlisting__cart">
+                    <div class="popularlisting__cart anim__item">
                         <div class="popularlisting__cart_image">
                             <div class="featured">Featured</div>
                             <img src="img/listingimg2.jpg" alt="img">
@@ -375,7 +388,7 @@
                                 <div class="popularlisting__cart_line4_elements">2 Rooms</div>
                                 </div>
                     </div>
-                    <div class="popularlisting__cart">
+                    <div class="popularlisting__cart anim__item">
                         <div class="popularlisting__cart_image">
                             <div class="featured">Featured</div>
                             <img src="img/listingimg3.jpg" alt="img">
@@ -410,7 +423,7 @@
             </div>
         </section>
 
-        <section class="video">
+        <section class="video anim__item no_repeat">
             <div class="video__title">
                 View Properties
             </div>
@@ -424,7 +437,7 @@
             </div>
         </section>
         
-        <section class="clients">
+        <section class="clients anim__item no_repeat">
             <div class="container">
                 <div class="clients__title">
                     Clients
@@ -438,11 +451,35 @@
             </div>
         </section>
         
-        <section class="carusell">
+        <section class="carusell anim__item no_repeat">
             <div class="container-fuild">
                 <div class="carusell__content">
-                    <div class="carusell__title">
+                    <div class="carusell__title fade">
                         Testimonials
+                        <svg width="182" height="28" viewBox="0 0 182 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.34375 26.164C24.8143 8.49734 91.8275 -16.736 180.115 23.664" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
+                            </svg>
+                    </div>
+                    <div class="carusell__title fade">
+                        Testimonials_1
+                        <svg width="182" height="28" viewBox="0 0 182 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.34375 26.164C24.8143 8.49734 91.8275 -16.736 180.115 23.664" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
+                            </svg>
+                    </div>
+                    <div class="carusell__title fade">
+                        Testimonials_2
+                        <svg width="182" height="28" viewBox="0 0 182 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.34375 26.164C24.8143 8.49734 91.8275 -16.736 180.115 23.664" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
+                            </svg>
+                    </div>
+                    <div class="carusell__title fade">
+                        Testimonials_3
+                        <svg width="182" height="28" viewBox="0 0 182 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.34375 26.164C24.8143 8.49734 91.8275 -16.736 180.115 23.664" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
+                            </svg>
+                    </div>
+                    <div class="carusell__title fade">
+                        Testimonials_4
                         <svg width="182" height="28" viewBox="0 0 182 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.34375 26.164C24.8143 8.49734 91.8275 -16.736 180.115 23.664" stroke="#FFEB33" stroke-width="3.5" stroke-linecap="round"/>
                             </svg>
@@ -453,8 +490,24 @@
                             <path d="M53.1895 7C53.7417 7 54.1895 7.44772 54.1895 8C54.1895 8.55228 53.7417 9 53.1895 9V7ZM0.292572 8.70711C-0.09795 8.31658 -0.09795 7.68342 0.292572 7.29289L6.65653 0.928932C7.04706 0.538408 7.68022 0.538408 8.07075 0.928932C8.46127 1.31946 8.46127 1.95262 8.07075 2.34315L2.41389 8L8.07075 13.6569C8.46127 14.0474 8.46127 14.6805 8.07075 15.0711C7.68022 15.4616 7.04706 15.4616 6.65653 15.0711L0.292572 8.70711ZM53.1895 9H0.99968V7H53.1895V9Z" fill="white"/>
                             </svg>
                             </div>
-                    <div class="carusell__text">
+                    <div class="carusell__text fade">
                         <span>Dan, Chief Architecture</span>- “Dreamsale began asa collaborative architectural
+                        and landscape workshop and has remained true to its transdisciplinary way of thinking since its inception”
+                    </div>
+                    <div class="carusell__text fade">
+                        <span>Dan_1, Chief Architecture</span>- “Dreamsale began asa collaborative architectural
+                        and landscape workshop and has remained true to its transdisciplinary way of thinking since its inception”
+                    </div>
+                    <div class="carusell__text fade">
+                        <span>Dan_2, Chief Architecture</span>- “Dreamsale began asa collaborative architectural
+                        and landscape workshop and has remained true to its transdisciplinary way of thinking since its inception”
+                    </div>
+                    <div class="carusell__text fade">
+                        <span>Dan_3, Chief Architecture</span>- “Dreamsale began asa collaborative architectural
+                        and landscape workshop and has remained true to its transdisciplinary way of thinking since its inception”
+                    </div>
+                    <div class="carusell__text fade">
+                        <span>Dan_4, Chief Architecture</span>- “Dreamsale began asa collaborative architectural
                         and landscape workshop and has remained true to its transdisciplinary way of thinking since its inception”
                     </div>
                         <div class="right">
@@ -474,7 +527,7 @@
             </div>
         </section>
 
-        <section class="newsletter">
+        <section class="newsletter anim__item no_repeat">
             <div class="container">
                 <div class="newsletter__title">
                     Stay Updated
@@ -554,6 +607,7 @@ information discount, etc.
                 </div>
             </div>
         </div>
+        <script src="js/script.js"></script>
     <div class="footer__img"><img src="img/footer.jpg" alt="img"></div>
     </footer>
 </body>
