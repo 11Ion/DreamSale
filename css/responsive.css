@@ -105,6 +105,31 @@
     .footer__part2{
         padding-bottom: 50px;
     }
+    .our_vision .container{
+        display: block;
+    }
+    .our_vision__content{
+        width: 100%;
+        max-width: 712px;
+        margin: 0 auto;
+        margin-top: 56px;
+    }
+    .our_vision__image{
+        margin: 0 auto;
+    }
+    .about__us__content{
+        display: block;
+    }
+    .abouts__us__info{
+        max-width: 644px;
+        margin: 0 auto;
+        margin-top: 68px;
+    }
+    .about__us__img{
+        margin: 0 auto;
+    }
+    
+
 }
 @media screen and (max-width: 1008px) {
     .header__item{
@@ -209,12 +234,50 @@
     .carusell__text{
         margin: 0 auto;
     }
+    .about__team__caption{
+        display: block;
+        max-width: 1280px;
+    }
+    .about__team__text{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .showing_all_propertiesmob{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .showing_all_properties{
+        display: none;
+    }
+    .all_products .container{
+        display: block;
+     }
 }
 @media screen and (max-width: 700px) {
+    .hero__about{
+        margin-top: 0;
+    }
+    .page__info{
+        display: block;
+    }
+    .menu_a{
+        position: absolute;
+        top: 50px;
+    }
+    .our_version_f1 img{
+        max-width: 250px;
+    }
     .header__item {
         display: none;
       }
-    
+      .logo__about{
+        display: none;
+      }
+      .logo_white{
+        display: block;
+      }
       .burger {
         display: block;
         cursor: pointer;
@@ -315,9 +378,6 @@
     .statics__content{
         display: block;
     }
-    .footer{
-        margin-top: 100px;
-    }
     .part2__text{
         max-width: 500px;
     }
@@ -330,6 +390,9 @@
     }
     .benefis__item{
         padding: 0;
+    }
+    .our_version_f1 img{
+        max-width: 160px;
     }
     .hero__title{
         margin-top: 8px;
@@ -687,6 +750,90 @@
     .left{
         left: 40%;
     }
+    .hero__about__title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 116%;
+        max-width: 349px;
+    }
+    .hero__about__subtitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 300px;
+    }
+    .our_vision__toptitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .our_vision__title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .our_vision__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .our_vision__btn {
+        width: 155px;
+        height: 60px;
+    }
+    .our_vision__btn a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .about__us{
+        margin-top: 68px;
+    }
+    .our_vision{
+        margin-top: 26px;
+    }
+    .abouts__us__info_title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 341px;
+
+    }
+    .abouts__us__info_subtitle{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .abouts__us__info_text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .about__team__title{
+        max-width: 256px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about__team__text{
+        margin-top: 16px;
+        max-width: 284px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .about__team_items{
+        margin-top: 45px;
+    }
+    .video__about{
+        margin-top: 44px;
+    }
+    .product__about__text_content {
+        padding: 20px 10px 20px 10px;
+    }
+    .product__about__text_plan {
+        padding: 20px 10px 20px 10px;
+    }
 }
 @media screen and (max-width: 350px) {
     .hero__btn {
@@ -698,6 +845,15 @@
     }
     .benefis__items__topinfo{
         gap: 5px;
+    }
+    .product__ch__items{
+        flex-wrap: wrap;
+    }
+    .product__ch__item{
+        margin:0 auto;
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
     }
     .benefis__items__text{
         font-size: 10px;
@@ -779,12 +935,77 @@
     .benefis__item{
         padding: 0;
     }
+    .video__about__controller img{
+        width: 64px;
+    }
+    .showing_all_propertiesmob{
+        display: block;
+    }
+    .propertiesmob_p p{
+        margin-top: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .propertiesmob_s{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .sort_btn{
+        font-size: 12px;
+    }
+    .select_items{
+        font-size: 12px;
+    }
+    .option{
+        font-size: 12px;
+    }
+    .element__items{
+        width: 110px;
+    }
+
 }
 @media screen and (max-width: 270px) {
     .logo img{
-    
         width: 120px;
     }
+    .hero__about__toptitle img{
+        width: 100%;
+        max-width: 230px;
+    }
+    .our_version_f1{
+        max-width: 100px;
+    }
+    .video__about__content{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        height: 309px;
+        background: rgba(30, 30, 47);
+        position: relative;
+    }
+    .video__about{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .video__about__content video{
+        width: 100%;
+        opacity: 0.6;
+        object-fit: cover;
+    }
+    .footer__img{
+        display: none;
+    }
+    .video__about__controller{
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .video__about__controller img{
+        width: 64px;
+    }
+    
     .burger svg{
         width: 30px;
     }
