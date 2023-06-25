@@ -150,13 +150,6 @@ function initializeCarousel() {
   showCurrentElement();
   updateEllipses();
 }
-window.onload = function () {
-    let preloader = document.getElementById('preloader')
-    if (!preloader) {
-        return;
-    } 
-    preloader.style.display = 'none';   
-};
 initializeScrollAnimations();
 initializeSelectItems();
 initializeBurgerMenu();
